@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Cadastro de Tarefas</title>
+        <link rel="stylesheet" href="css.css"/>
+    </head>
+    
+        <body>        
+
+        <div id="corpo">
+          
+            <div>
+            <div id="titulo">
+                <h1>CADASTRO</h1>
+            </div>
+            <div id="tarefas">
+                <div>
+                    <label><strong>ID:</strong></label>
+                    <input id="id" type="text" />
+                </div>
+                <div>
+                    <label><strong>DATA:</strong></label>
+                    <input id="data" type="date" />
+                </div>
+                <div>
+                    <label><strong>INÍCIO:</strong></label>
+                    <input id="horain" type="time" />
+                </div>
+                <div>
+                    <label><strong>TÉRMINO:</strong></label>
+                    <input id="horaterm" type="time" />
+                </div>
+                <div>
+                    <label><strong>EVENTO:</strong></label>
+                    <input id="evento" type="text" />
+                </div>
+                <div>
+                    <label><strong>DESCRIÇÃO:</strong></label>
+                    <input id="descricao" type="text" />
+                </div>
+                <div>
+                    <label><strong>STATUS:</strong></label>
+                    <input id="status" type="text" />
+                </div>
+                </div>
+                    <button id="add">Adicionar Evento</button>
+                    <button id="change">Alterar Evento</button>
+                    <button id="changestats">Alterar Status</button>
+                    <button id="remove">Remover Evento</button>
+
+                
+                
+                </div>
+
+            <div id="result"></div>
+                    
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="./js.js"></script>
+        </div>
+    </body>
+        
+</html>
