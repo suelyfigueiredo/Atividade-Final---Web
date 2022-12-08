@@ -1,0 +1,45 @@
+#corpo {
+
+    
+    width: 450px;
+    height: 450px;
+    background-image: url("img.jpg");
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#95c7ff;
+    border-radius:20px;
+    border: 1px solid;
+    margin-top:10px;
+    padding:20px;
+    border-color:#080808;
+    overflow-wrap: break-word;
+}
+
+#tarefas {
+    
+    
+    padding:10px;
+    justify-content: center;
+    border:1px solid; 
+    border-color:#070707; 
+    border-radius:5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo {
+    
+    margin-left: 130px;
+    margin-right: auto;
+   
+   
+}
+
+
+#id, #data, #horain, #horaterm, #evento, #descricao, #status {
+    width: 250px;
+    margin: 5px;
+}
